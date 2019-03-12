@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="377" height="104" viewBox="0 0 377 104">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-1);
+        filter: url(#drop-shadow-1);
+        fill-rule: evenodd;
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="26" y1="51.5" x2="349.97" y2="51.5">
+      <stop offset="0" stop-color="#dee819"/>
+      <stop offset="1" stop-color="#92ff00"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.196" result="dropBlur"/>
+      <feFlood flood-color="#150b1e" flood-opacity="0.64"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+    </filter>
+  </defs>
+  <path d="M329.150,26.496 L47.860,26.496 C42.363,26.496 37.284,29.406 34.536,34.127 L28.574,44.369 C25.826,49.092 25.826,54.908 28.574,59.630 L34.536,69.873 C37.284,74.595 42.363,77.503 47.860,77.503 L329.150,77.503 C334.646,77.503 339.726,74.595 342.474,69.873 L348.436,59.630 C351.185,54.908 351.185,49.092 348.436,44.369 L342.474,34.127 C339.726,29.406 334.646,26.496 329.150,26.496 Z" class="cls-1"/>
+</svg>
